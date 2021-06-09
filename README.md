@@ -16,7 +16,7 @@ sudo apt install openjdk-8-jre wget
 ```
 cd ~ && mkdir -p Minecraft/lwjgl && cd Minecraft/lwjgl
 ```
-No check the output of `uname -p`:
+Now check the output of `uname -p`:
 
 For armhf:
 ```
@@ -30,7 +30,7 @@ wget xy.com && tar -xvf lwjgl3-linux-arm64.tar.gz --one-top-level=v3
 ```
 
 ## Step 3: Install the Launcher
-Arm devices cant run the newest Minecraft Java launcher so we have to Options:
+Arm devices cant run the newest Minecraft Java launcher so we have two Options:
 
 launcher | a) official legacy launcher | b) MultiMC5 launcher
 --- | --- | ---
