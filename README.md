@@ -13,6 +13,7 @@ sudo apt install openjdk-8-jre wget
 ```
 2. Install LWJGL locally
  > Minecraft does not ship LWJGL for arm devices in their laucher so we need to manuelly install them
+ 
 ```
 cd ~ && mkdir -p Minecraft/lwjgl && cd Minecraft/lwjgl
 ```
