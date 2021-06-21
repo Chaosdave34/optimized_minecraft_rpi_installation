@@ -60,3 +60,12 @@ over_voltage=6
 arm_freq=2000
 gpu_freq=700
 ```
+
+
+b) Use lightwight Desktop
+The default Raspberry Pi OS Desktop "PIXEL" is already pretty lightweight. Alternative you can use xfce4 or lxqt:
+```
+sudo apt installl xfce4 -y
+---
+sudo apt install lxqt-desktop
+```
