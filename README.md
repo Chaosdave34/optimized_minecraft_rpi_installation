@@ -67,5 +67,7 @@ The default Raspberry Pi OS Desktop "PIXEL" is already pretty lightweight. Alter
 ```
 sudo apt installl xfce4 -y
 ---
-sudo apt install lxqt-desktop
+sudo apt install lxqt-desktop -y
 ```
+
+c) Remove unnecassary backround services
