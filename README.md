@@ -51,8 +51,8 @@ cd ~/Minecraft && wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e3
 
 ## Step 4: Setup launcher
 
-1: Legacy launcher
-a)
+1: Legacy launcher  
+a) xy
 
 ## Step 5: Optimize system (optional)
 
