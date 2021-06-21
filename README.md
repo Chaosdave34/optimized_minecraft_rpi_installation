@@ -6,6 +6,8 @@ Guide for installing optimized Minecraft Java on Raspberry Pi
 You should have at least a Raspberry Pi 3 module or you won't get Minecraft running at adorable performance.     
 I recommend at least Reaspberry Pi 4 with 2 GB of Ram.
 
+IMPORTANT: A fast SD-card or USB-stick is neccasary to run Minecraft and the whole system and a fast speed. Using a slow device will let your system hang sometime.
+
 ## Step 2: Software
 1. Install dependencies
 ```
