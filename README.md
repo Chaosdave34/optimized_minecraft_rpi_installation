@@ -89,12 +89,12 @@ d) start fabric and be happy :)
 
 ## Step 6: Optimize system (optional)
 
-a) Overclock
+a) Overclock (cooling is very recommend)
 Edit the boot config file...
 ```
 sudo nano /boot/config.txt
 ```
-... and add the following line:
+... and add the following line (and reboot):
 ```
 over_voltage=6
 arm_freq=2000
