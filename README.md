@@ -48,13 +48,46 @@ a) legacy launcher
 ```
 cd ~/Minecraft && wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar
 ```
+Add Minecraft to software list:
+```
+nano ~/.local
+```
 
 ## Step 4: Setup launcher
 
 1. Legacy launcher  
-a) xy
+a) Start launcher and login to your Account
+b) You need to create a new installation. You can select every Version ( even alpha/beta and experimental)
+You need to add the following line at "jvm-options" at the end
+```
+-
+```
+c) save the installation and start it
 
-## Step 5: Optimize system (optional)
+## Step 5: Install optimizing mods
+There are two Options:
+Mod | Optifine | Sodium
+-|-|-
+Version | 1.0 - 1.17 | 1.16
+Pro | more Options | more FPS
+
+I. Sodium (1.16 only)
+a) Install fabric mod loader
+A window will popup, choose version 1.16.5 and hit enter
+```
+wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.7.4/fabric-installer-0.7.4.jar && java -jar  fabric-installer-0.7.4.jar
+```
+b) Install mods
+```
+mkdir ~/.minecraft/mods && cd ~/.minecraft/mods && wget https://media.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar && wget https://media.forgecdn.net/files/3294/303/phosphor-fabric-mc1.16.3-0.7.2%2Bbuild.12.jar && wget https://media.forgecdn.net/files/3344/974/lithium-fabric-mc1.16.5-0.6.6.jar
+```
+c) start minecraft and edit the jvm options again (add the following at the end)
+```
+-
+```
+d) start fabric and be happy :)
+
+## Step 6: Optimize system (optional)
 
 a) Overclock
 Edit the boot config file...
