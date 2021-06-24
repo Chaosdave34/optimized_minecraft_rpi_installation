@@ -71,9 +71,9 @@ Mod | Optifine | Sodium
 Version | 1.0 - 1.17 | 1.16
 Pro | more Options | more FPS
 
-I. Sodium (1.16 only)
-a) Install fabric mod loader
-A window will popup, choose version 1.16.5 and hit enter
+I. Sodium (1.16 only) 
+a) Install fabric mod loader 
+A window will popup, choose version 1.16.5 and hit enter 
 ```
 wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.7.4/fabric-installer-0.7.4.jar && java -jar  fabric-installer-0.7.4.jar
 ```
@@ -90,7 +90,7 @@ II. Optifine
 
 a) Download your preferred Version at http://optifine.net/downloads
 
-b) Run the following command to install Optifine. Replace "Optifine.jar" with the name of your file.
+b) Run the following command to install Optifine. Replace "Optifine.jar" with the name of your file. 
 A window will popup, hit install.
 ```
 java -jar Optifine.jar
