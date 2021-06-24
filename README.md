@@ -35,7 +35,7 @@ wget xy.com && tar -xvf lwjgl3-linux-arm64.tar.gz --one-top-level=v3
 ## Step 3: Install the Launcher
 Arm devices cant run the newest Minecraft Java launcher so we have two Options:
 
-launcher | a) official legacy launcher | b) MultiMC5 launcher
+launcher | official legacy launcher | MultiMC5 launcher
 --- | --- | ---
 Mojang Account support | yes | yes
 Microsoft Account support | no | yes
@@ -44,23 +44,39 @@ Cons | - | needs to get build (needs some time)
 
 > only install one of the launcher (you can choose on your one which you will use)
 
-a) legacy launcher
+I. legacy launcher
+a) Downlod it
 ```
 cd ~/Minecraft && wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar
 ```
-Add Minecraft to software list:
+b) Add Minecraft to software list:
 ```
 nano ~/.local
 ```
-Add following content:
-```
+And add following content:
+``` 
 test
 ```
 Save with crtl+o, enter, ctrl+x
 
+
+II. MultiMC
+a) Download build files:
+```
+mkdir ~/MultiMC && cd ~/MultiMC
+mkdir build && mkdir install
+git clone --recursive https://github.com/MultiMC/MultiMC5.git src
+```
+b) Build and install MultiMC5
+```
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=../install ../src
+make -j4 install
+```
+
 ## Step 4: Setup launcher
 
-1. Legacy launcher  
+I. Legacy launcher  
 a) Start launcher and login to your Account 
 b) You need to create a new installation. You can select every Version ( even alpha/beta and experimental)   
 You need to add the following line at "jvm-options" at the end
@@ -68,6 +84,8 @@ You need to add the following line at "jvm-options" at the end
 -
 ```
 c) save the installation and start it
+
+II. MultiMC5
 
 ## Step 5: Install optimizing mods  
 There are two Options:
