@@ -21,7 +21,7 @@ cd ~ && mkdir -p Minecraft/lwjgl && cd Minecraft/lwjgl
 ```
 Now check the output of `uname -p`:
 
-For armhf:
+For armhf/armv7:
 ```
 wget xy.com && tar -xvf lwjgl2-linux-arm32.tar.gz --one-top-level=v2
 wget xy.com && tar -xvf lwjgl3-linux-arm32.tar.gz --one-top-level=v3
