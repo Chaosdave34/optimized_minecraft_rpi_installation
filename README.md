@@ -110,7 +110,7 @@ Edit the boot config file...
 ```
 sudo nano /boot/config.txt
 ```
-... and add the following line (and reboot):
+... and add the following line (reboot needed):
 ```
 over_voltage=6
 arm_freq=2000
