@@ -52,6 +52,11 @@ Add Minecraft to software list:
 ```
 nano ~/.local
 ```
+Add following content:
+```
+test
+```
+Save with crtl+o, enter, ctrl+x
 
 ## Step 4: Setup launcher
 
