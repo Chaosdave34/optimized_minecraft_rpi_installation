@@ -85,7 +85,23 @@ c) start minecraft and edit the jvm options again (add the following at the end)
 ```
 -
 ```
-d) start fabric and be happy :)
+
+II. Optifine
+
+a) Download your preferred Version at http://optifine.net/downloads
+
+b) Run the following command to install Optifine. Replace "Optifine.jar" with the name of your file.
+A window will popup, hit install.
+```
+java -jar Optifine.jar
+```
+
+c) start minecraft and edit the jvm options again (add the following at the end)
+```
+-
+```
+
+d) start Optifine and be happy :)
 
 ## Step 6: Optimize system (optional)
 
