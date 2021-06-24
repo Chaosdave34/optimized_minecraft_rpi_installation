@@ -56,8 +56,8 @@ nano ~/.local
 ## Step 4: Setup launcher
 
 1. Legacy launcher  
-a) Start launcher and login to your Account
-b) You need to create a new installation. You can select every Version ( even alpha/beta and experimental)
+a) Start launcher and login to your Account 
+b) You need to create a new installation. You can select every Version ( even alpha/beta and experimental)   
 You need to add the following line at "jvm-options" at the end
 ```
 -
