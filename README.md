@@ -1,4 +1,4 @@
-Guide for installing optimized Minecraft Java on Raspberry Pi
+Guide for installing optimized Minecraft Java on Raspberry Pi (WIP!!!)
 ================
 
 ## Step 1: Hardware
